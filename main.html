@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+.header {
+    background-color: #F1F1F1;
+}
+.header h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.header h2 {
+    font-size: 40px;
+    text-align: left;
+    padding: 15px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.column.leftcolumn{
+    width: 30%;
+}
+.column.rightcolumn {
+    width: 70%;
+    .padding-left: 20px;
+    background-color: #aaa;
+}
+.fakevid {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column.left, .column.middle {
+        width: 100%;
+    }
+}
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>Tyler Gonsalves - Aspiring Software Engineer</h1>
+</div>
+
+<div class="topnav">
+    <a href="#">Resume</a>
+    <a href="linkedin.com/in/tyler-gonsalves">LinkedIn</a>
+    <a href="mailto:gonsalvestyler@gmail.com">E-Mail</a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="header">
+            <h2>Projects</h2>
+        </div>
+        <div class="card">
+                <h3>Capstone Design: Digital Twin</h3><br>
+                <div class="fakevid" style="height:250px;">Image</div>
+                <p>The Digital Twin Project encorporates embedded system design and machine learning into one project. Using sensors to analyze the current state of a physical system, we can use machine learning to predict the remaining useful life of the system. We can take the project even further by sending signals to the system to tweak and optimize its performance to maximize the remaining life of the system, saving time and money on repairs and maintenance.</p>
+        </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <div class="header">
+                <h2>About Me</h2>
+            </div>
+            <p>I'm a senior computer engineering student with a minor in computer science at the University of Rhode Island.</p>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <h3 style="text-align:center;">Site was created and is managed by Tyler Gonsalves</h3>
+</div>
+
+</body>
+</html>
